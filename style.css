@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Titillium Web", sans-serif; ;
+}
+
+.container{
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/bg.png);
+    height: 99vh;
+    background-position: center;
+    background-size: cover;
+}
+
+p{
+    color: #fff;
+    font-size: 10px;
+    line-height: 16px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    column-gap: 20px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+  transition: ease 0.5s;  
+}
+
+nav ul li a:hover{
+    color: #000;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    height: 88%;
+}
+
+.btn{
+   padding: 12px 28px;
+   font-size: 12px;
+   font-weight: 700;
+   border: 1px solid red ;
+   border-radius: 30px;
+   color: #000;
+   background-color: #fff;
+   cursor: pointer;
+   margin-top: 30px;
+   transition: ease 0.5s;
+   text-decoration: none;
+}
+
+.btn:hover{
+    color: #fff;
+    background-color: #000;
+    border-color: #fff;
+}
+
+.col{
+    flex-basis: 50%;
+}
+
+h1{
+    color: #fff;
+    font-size: 100px;
+}
+
+.desc{
+    color: #fff;
+    font-size: 16px;
+}
+
+.card{
+    padding: 15px 25px;
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    background-image: url(images/1.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 1px solid red;
+    border-radius: 20px;
+    position: relative;
+    margin: 10px 15px;
+    transition: ease 0.5s;
+}
+
+.cards{
+    max-width: 500px;
+    margin: auto;
+}
+
+.card:hover{
+    border-color: #fff;
+    transform: translateY(-10px);
+}
+
+.card .card-heads{
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.card .card-bottom{
+    position: absolute;
+    bottom: 23px;
+}
+
+.card.card2{
+    background-image: url(images/3.jpg);
+}
+
+.card.card3{
+    background-image: url(images/4.jpg);
+}
+
+.card.card4{
+    background-image: url(images/2.jpg);
+}
